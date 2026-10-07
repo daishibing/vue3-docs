@@ -4,7 +4,7 @@ emits 用于子组件触发父组件绑定的自定义事件，并可携带数�
 
 # 基础示例
 
-`components/DataItem.vue`：
+`src/components/DataItem.vue`：
 
 ```vue
 <script setup lang="ts">
@@ -24,7 +24,7 @@ function sendData() {
 </template>
 ```
 
-`App.vue`：
+`src/App.vue`：
 
 ```vue
 <script setup lang="ts">

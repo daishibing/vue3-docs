@@ -4,7 +4,7 @@ props 用于父组件向子组件传递数据，且是单向数据流，子组�
 
 # 基础示例
 
-`components/DataItem.vue`：
+`src/components/DataItem.vue`：
 
 ```vue
 <script setup lang="ts">
@@ -20,7 +20,7 @@ const props = defineProps<Props>()
 </template>
 ```
 
-`App.vue`：
+`src/App.vue`：
 
 ```vue
 <script setup lang="ts">

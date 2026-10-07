@@ -4,7 +4,7 @@ slot 用于向子组件传递模板内容
 
 # 默认插槽基础示例
 
-`components/DataItem.vue`：
+`src/components/DataItem.vue`：
 
 ```vue
 <template>
@@ -16,7 +16,7 @@ slot 用于向子组件传递模板内容
 </template>
 ```
 
-`App.vue`：
+`src/App.vue`：
 
 ```vue
 <script setup lang="ts">
@@ -32,7 +32,7 @@ import DataItem from "@/components/DataItem.vue"
 
 # 具名插槽基础示例
 
-`components/DataItem.vue`：
+`src/components/DataItem.vue`：
 
 ```vue
 <template>
@@ -44,7 +44,7 @@ import DataItem from "@/components/DataItem.vue"
 </template>
 ```
 
-`App.vue`：
+`src/App.vue`：
 
 ```vue
 <script setup lang="ts">
