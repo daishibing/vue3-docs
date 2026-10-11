@@ -7,7 +7,7 @@
 `src/requests/json.ts`：
 
 ```ts
-import { request } from "@/requests"
+import { request } from "./instance"
 
 import type { AxiosRequestConfig } from "axios"
 
